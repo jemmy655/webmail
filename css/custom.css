@@ -1,0 +1,147 @@
+﻿html,
+body {
+  height: 100%;
+  font-size: 14px !important;
+  line-height: 1.42857;
+  background-color: #fff !important;
+}
+input[type="checkbox"] {
+	width: 20px;
+}
+a {
+    color: black;
+}
+
+#show {
+display:none;
+}
+/* works with IE8+, Firefox 2+, Safari, Chrome, Opera 10+ */
+#show:target {
+	display:block;
+}
+.loading{
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-100px 0 0 -60px;
+	z-index: 999;
+}
+#loading {
+	display: none;
+	
+}
+.message {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    color: #333333;
+    line-height: 1.42857;
+    margin: 0 0 10px;
+    padding: 10px;
+	overflow: auto;
+}
+.unseen td{
+	background-color:#E6FFE6 !important;
+}
+a:hover {
+	color: #428BCA;
+    text-decoration: none;
+}
+.btn {
+	margin-bottom: 20px;
+}
+.btn-del{
+	margin-bottom: 20px;
+	height: 34px;
+}
+.blok-center {
+    margin: 0 auto;
+    max-width: 500px;
+	padding: 0 20px;
+}
+input, textarea, .uneditable-input {
+    width: 100%;
+}
+.nav > li > a {
+    color: #716B7A;
+    display: block;
+    padding: 5px 20px;
+}
+.nav{
+	border-radius: 5px;
+	background-color: #f7f5fa;
+	padding: 10px 0 10px 0;
+	margin-bottom: 20px;
+}
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.container .text-muted  a{
+  color: #428bca;
+}
+.top-side {
+	margin-top: 20px;
+}
+.callout {
+	padding: 20px;
+}
+.biv-background {
+	background-color: #F7F5FA;
+	padding-top: 30px;
+	border-radius: 5px;
+}
+.biv-btn {
+    display: inline-block;
+    height: 34px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+.alert-danger p {
+	margin: 0;
+}
+.wrap-form  {
+	padding-top: 20px;
+}
+.form-signin {
+  max-width: 400px;
+  padding: 30px;
+  margin: 0 auto;
+  background-color: #eee;
+  border-radius: 5px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+input[type=text], input[type=password] {
+	margin: 0 0 10px 0;
+}
+.btn-enter {
+	margin: 50px 0 0 0;
+}
