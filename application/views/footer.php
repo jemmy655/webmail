@@ -3,7 +3,7 @@
 <div id="footer">
 	<div class="container">
 		<p class="text-muted">
-			&copy; <a href="http://www.biv.vv.si">Advancement</a>&nbsp<?php echo date( 'Y' ); ?>
+			&copy; <a href="http://bashko.ru/">Advancement</a>&nbsp<?php echo date( 'Y' ); ?>
 		</p>
 	</div>
 </div>
